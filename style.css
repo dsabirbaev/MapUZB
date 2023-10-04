@@ -1,0 +1,59 @@
+
+body{
+  overflow: hidden;
+}
+.map-div{
+  /* width: 800px;
+  height: 450px; */
+  /* background-color: red; */
+}
+
+
+.map-div path{
+  fill: #009344;
+  stroke: rgba(255, 255, 255, 0.829);
+  stroke-width: 2px;
+  transition: fill 0.3s ease;
+  
+}
+.map-div path:hover {
+  fill: rgba(72, 241, 95, 0.795);
+  stroke:#fff;
+  stroke-width:3px;
+}
+
+.map-div path:active{
+  fill: #0c351f;
+  stroke-width:4px;
+}
+
+
+
+#bukhoro:active{
+  margin: 2px;
+}
+
+
+
+#UZ828::after{
+  content:'';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: red;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: 600;
+  color: #009344;
+}
